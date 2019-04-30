@@ -169,7 +169,7 @@ public class Controller {
                 res = this.num1 * Float.parseFloat(strnum);
                 break;
             case '/':
-                if (Integer.parseInt(strnum) != 0) {
+                if (Float.parseFloat(strnum) != 0) {
                     res = this.num1 / Float.parseFloat(strnum);
                 }
                 break;
